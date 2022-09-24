@@ -57,8 +57,6 @@ function nextSequence() {
     playSound(randomChosenColor);
 }
 
-nextSequence();
-
 function animatePress(currentColor) {
     $("#" + currentColor).addClass("pressed");
     setTimeout(() => {
